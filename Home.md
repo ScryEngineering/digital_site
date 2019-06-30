@@ -16,9 +16,13 @@ We offer a full suite of consulting, digital delivery and business strategy serv
 
 ### Consulting & Training
 
+Ditch boring PowerPoints for hands-on skills development. Learn about a wide range of topics from machine learning, open technology stacks and Python programming skills to knowledge transfer and improving communication & stakeholder management - all from our industry experts. We show you exactly what to do and how to do it, step-by-step.
+
+### Content Creation & Web Development
 
 
-### Digital Delivery
+
+Marketing is essential to building relationships and attracting the right clients. 
 
 Content creation for the web and strategy - digital delivery
 
