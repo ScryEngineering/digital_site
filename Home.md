@@ -12,31 +12,23 @@ We give high-performing companies the tools they need to compete in the digital 
 
 ## What We Do 
 
-We offer a full suite of consulting, digital delivery and business strategy services to help your organization operate even more efficiently and effectively. 
+We offer a full suite of consulting, marketing and business strategy services to help your organization operate even more efficiently and effectively. 
 
-### Consulting & Training
+### Consulting and Training
 
 Ditch boring PowerPoints for hands-on skills development. Learn about a wide range of topics from machine learning, open technology stacks and Python programming skills to knowledge transfer and improving communication & stakeholder management - all from our industry experts. We show you exactly what to do and how to do it, step-by-step.
 
-### Content Creation & Web Development
+### Content Creation and Web Development
 
+Set your brand apart from the rest. A strong online presence is essential to attracting the right clients, and that means having a beautifully designed site that features engaging, valuable content that resonates with your target market. Our talented team brings years of expertise in a variety of fields, including content marketing, responsive design, UI and UX, front-end development and more.
 
+### Process Automation 
 
-Marketing is essential to building relationships and attracting the right clients. 
+Increase your team's efficiency, eliminate tedious tasks and market your products and services even more effectively. We create easy-to-use automation solutions you can incorporate into your workflow - even if you're a non-technical specialist. 
 
-Content creation for the web and strategy - digital delivery
+### Business Strategy and Technology Management
 
-Expertise in design and front-end development 
-
-
-
-### Automation 
-
-
-
-### Business & Technology Strategy 
-
-We build you an action plan that gets results
+Discover new opportunities, build a solid foundation for growth and eliminate wasteful spending. We bring teams and technology together to help you plan for the future and resolve your most pressing technological challenges.
 
 
 
