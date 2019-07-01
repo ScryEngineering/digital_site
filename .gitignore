@@ -1,3 +1,6 @@
+# Gilbert output folder
+docs/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
