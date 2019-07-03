@@ -20,7 +20,8 @@ Ditch boring PowerPoints for hands-on skills development. Learn about a wide ran
 
 ### Content Creation and Web Development
 
-Set your brand apart from the rest. A strong online presence is essential to attracting the right clients, and that means having a beautifully designed site that features engaging, valuable content that resonates with your target market. Our talented team brings years of expertise in a variety of fields, including content marketing, responsive design, UI and UX, front-end development and more.
+Set your brand apart from the rest. To attract the right clients, you need a 
+a beautifully designed site that features engaging, valuable content your target market will love. Our talented team brings years of expertise in a variety of fields, including content marketing, responsive design, UI and UX, front-end development and more.
 
 ### Process Automation 
 
