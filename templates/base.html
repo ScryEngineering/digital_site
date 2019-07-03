@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/base.scss">
+</head>
+<body>
+    <header>
+        <h1>Site name</h1>
+        <ul>
+            {% for page in pages %}
+            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </header>
+    <div>
+        {% block content %}{% endblock %}
+    </div>
+    <footer></footer>
+</body>
+</html>
