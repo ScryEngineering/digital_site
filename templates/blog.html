@@ -1,7 +1,12 @@
 {% extends "base.html" %}
-
 {% block title %}{{ this.title }}{% endblock %}
-
 {% block content %}
-{% include "blog/post.html" %}
+<ul>
+    {% for page in pages %}
+    {% if page.author %}
+    <li><a href="{{ page.slug }}">{{ page.title }}</a> by {{ page.author }}</li>
+    {{ page.summary }}
+    {% endif %}
+    {% endfor %}
+</ul>
 {% endblock %}

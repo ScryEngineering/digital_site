@@ -1,6 +1,14 @@
-<ul>
-    {% for post in content %}
-    <li>{{ post.title }} by {{ post.author }}</li>
-    {{ post.content }}
-    {% endfor %}
-</ul>
+{% extends "base.html" %}
+
+{% block title %}{{ this.title }}{% endblock %}
+
+{% block content %}
+<h1>{{ this.title }}</h1>
+<h4>by {{ this.author }}</h4>
+<p>category: {{ this.category }}</p>
+<p>tags: {{ this.tags }}</p>
+<p>{{ this.posted }}</p>
+<p>{{ this.modified }}</p>
+<p>{{ this.content }}</p>
+
+{% endblock %}

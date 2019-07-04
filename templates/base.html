@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lan="en">
+<html lang="en">
 <head>
     <title>{% block title %}{% endblock %}</title>
-    <link rel="stylesheet" type="text/css" href="/static/css/base.scss">
+    <link rel="stylesheet" type="text/css" href="/static/css/base.css">
 </head>
 <body>
     <header>
         <h1>Site name</h1>
-        <ul>
+        <ul id="nav">
             {% for page in pages %}
+            {% if not page.author %}
             <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            {% endif %}
             {% endfor %}
         </ul>
     </header>
@@ -17,5 +19,6 @@
         {% block content %}{% endblock %}
     </div>
     <footer></footer>
+    {% block scripts %}{% endblock %}
 </body>
 </html>
