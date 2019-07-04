@@ -4,7 +4,7 @@
 <ul>
     {% for page in pages %}
     {% if page.author %}
-    <li><a href="{{ page.slug }}">{{ page.title }}</a> by {{ page.author }}</li>
+    <li><a href="{{ page.url }}">{{ page.title }}</a> by {{ page.author }}</li>
     {{ page.summary }}
     {% endif %}
     {% endfor %}

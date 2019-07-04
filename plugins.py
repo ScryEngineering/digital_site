@@ -12,4 +12,3 @@ class BlogPost(Templated, Content):
 	tags: list
 	template: str = "blog/post.html"
 	summary: str
-	slug: str
