@@ -1,5 +1,13 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: blue;
+
 body {
+    font-family: $font-stack;
     margin: 0 auto;
+}
+
+h1{
+    color: $primary-color;
 }
 
 #nav {
