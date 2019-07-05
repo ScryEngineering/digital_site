@@ -9,13 +9,15 @@
         <h1>Site name</h1>
         <ul id="nav">
             {% for page in pages %}
-            {% if not page.authors %}
+            {% if not page.content_type %}
             <li><a href="{{ page.url }}">{{ page.title }}</a></li>
             {% endif %}
             {% endfor %}
         </ul>
     </header>
-    {% block content %}{% endblock %}
+    <div>
+        {% block content %}{% endblock %}
+    </div>
     <footer></footer>
     {% block scripts %}{% endblock %}
 </body>
