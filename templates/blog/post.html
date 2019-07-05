@@ -15,7 +15,7 @@
     <br />
     <h4>Modified on <time datetime="">{{ this.modified }}</time>.</h4>
     {% endif %}
-    <p>category: {{ this.category }}</p>
+    <p>category: <a href="" class="tags">{{ this.category }}</a></p>
     <p>{{ this.content }}</p>
     <!-- TODO: include author/s card -->
     {% for tag in this.tags %}<a href="" class="tags">{{ tag }}</a>{% endfor %}
