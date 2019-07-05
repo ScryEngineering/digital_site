@@ -1,8 +1,14 @@
 content_type: BlogPost
 title: My First Post!
 author: Alysha
+# posted: 2019-07-04 0:00
+# modified: 2019-07-05 0:00
 category: software
+tags: 
+- Hello
+- world
 summary: A short desciption
+draft: false
 ---
 
 Hello world this is the full post!
