@@ -1,6 +1,8 @@
 content_type: BlogPost
 title: My First Post!
-author: Alysha
+authors: 
+- Alysha
+- Janis
 # posted: 2019-07-04 0:00
 # modified: 2019-07-05 0:00
 category: software

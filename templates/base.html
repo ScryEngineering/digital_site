@@ -9,7 +9,7 @@
         <h1>Site name</h1>
         <ul id="nav">
             {% for page in pages %}
-            {% if not page.author %}
+            {% if not page.authors %}
             <li><a href="{{ page.url }}">{{ page.title }}</a></li>
             {% endif %}
             {% endfor %}

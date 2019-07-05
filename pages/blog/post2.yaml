@@ -1,6 +1,7 @@
 content_type: BlogPost
 title: My Third Post!
-author: Alysha
+authors: 
+- Alysha
 category: software
 summary: A short desciption
 ---

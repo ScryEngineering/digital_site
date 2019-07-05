@@ -1,7 +1,10 @@
 content_type: BlogPost
 title: My Second Post!
-author: Alysha
+authors: 
+- Alysha
 category: software
+tags: 
+- Hello
 summary: A short desciption
 ---
 

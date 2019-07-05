@@ -5,7 +5,7 @@
 {% block content %}
 <div id="post">
     <h1>{{ this.title }}</h1>
-    <h4>Published on <time datetime="">{{ this.posted }}</time> by {{ this.author }}.</h4>
+    <h4>Published on <time datetime="">{{ this.posted }}</time> by {% for authors in this.authors %}<a href="">{{ authors }}</a>{% endfor %}.</h4>
     {% if page.modified %}
     <br />
     <h4>Modified on <time datetime="">{{ this.modified }}</time>.</h4>
