@@ -9,7 +9,7 @@
     <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
     <p>{{ page.summary }}</p>
     <p>Published on {{ page.posted }} by {{ page.author }}.</p>
-    {% for tag in tags %}{{ tag }}{% endfor %}
+    {% for tag in page.tags %}<a href="" class="tags">{{ tag }}</a>{% endfor %}
     {% endif %}
     {% endfor %}
 </div>
