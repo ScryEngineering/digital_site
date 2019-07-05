@@ -6,7 +6,7 @@ from gilbert.content import Templated, Content
 class BlogPost(Templated, Content):
 	title: str
 	authors: list
-	posted: typing.Union[None, datetime]
+	posted: datetime
 	modified: typing.Union[None, datetime]
 	category: str
 	tags: list
