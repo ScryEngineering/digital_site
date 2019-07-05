@@ -3,12 +3,16 @@
 {% block title %}{{ this.title }}{% endblock %}
 
 {% block content %}
-<h1>{{ this.title }}</h1>
-<h4>by {{ this.author }}</h4>
-<p>category: {{ this.category }}</p>
-<p>tags: {% for tag in tags %}{{ tag }}{% endfor %}</p>
-<p>{{ this.posted }}</p>
-<p>{{ this.modified }}</p>
-<p>{{ this.content }}</p>
-
+<div id="post">
+    <h1>{{ this.title }}</h1>
+    <h4>Published on <time datetime="">{{ page.posted }}</time> by {{ page.author }}.</h4>
+    {% if page.modified %}
+    <br />
+    <h4>Modified on <time datetime="">{{ page.modified }}</time>.</h4>
+    {% endif %}
+    <p>category: {{ this.category }}</p>
+    <p>{{ this.content }}</p>
+    <!-- TODO: include author/s card -->
+    <p>tags: {% for tag in tags %}{{ tag }}{% endfor %}</p>
+</div>
 {% endblock %}
