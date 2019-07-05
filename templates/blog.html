@@ -15,7 +15,7 @@
         {% endfor %}.
         {% if page.modified %}
         <br />
-        Modified on <time datetime="">{{ this.modified }}</time>.
+        Modified on <time datetime="">{{ page.modified }}</time>.
         {% endif %}
     </p>
     {% for tag in page.tags %}<a href="" class="tags">{{ tag }}</a>{% endfor %}
