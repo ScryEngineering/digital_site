@@ -1,11 +1,12 @@
 {% extends "base.html" %}
 
 {% block title %}{{ this.title }}{% endblock %}
+{% block css %}<link rel="stylesheet" type="text/css" href="/static/css/blog.css">{% endblock %}
 
 {% block content %}
-<div id="posts">
-    {% for page in pages %}
-    {% if page.authors %}
+{% for page in pages %}
+{% if page.authors %}
+<div id="post">
     <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
     <p>{{ page.summary }}</p>
     <p>
@@ -19,7 +20,7 @@
         {% endif %}
     </p>
     {% for tag in page.tags %}<a href="" class="tags">{{ tag }}</a>{% endfor %}
-    {% endif %}
-    {% endfor %}
 </div>
+{% endif %}
+{% endfor %}
 {% endblock %}
