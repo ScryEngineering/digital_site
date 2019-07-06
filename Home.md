@@ -18,10 +18,17 @@ We offer a full suite of consulting, marketing and business strategy services to
 
 Ditch boring PowerPoints for hands-on skills development. Learn about a wide range of topics from machine learning, open technology stacks and Python programming skills to knowledge transfer and improving communication & stakeholder management - all from our industry experts. We show you exactly what to do and how to do it, step-by-step.
 
-### Content Creation and Web Development
+### Content Creation 
 
-Set your brand apart from the rest. To attract the right clients, you need a 
-a beautifully designed site that features engaging, valuable content your target market will love. Our talented team brings years of expertise in a variety of fields, including content marketing, responsive design, UI and UX, front-end development and more.
+Content builds connection and helps you tell your story. When you understand your audience, you can help them solve their challenges - and convert visitors into customers. With years of expertise in crafting high-quality, dynamic content and a knack for helping tech-focused businesses tell their stories, we're well-positioned to help you break through the noise, reach your customer and get results.  
+
+### Web Development
+
+To attract the right clients, you need a beautifully designed, accessible, secure and mobile-responsive site that will snag you a top spot in search engine results pages. Our talented team brings years of expertise in a variety of fields, including responsive design, UI and UX, front-end development and more. 
+
+### Graphic Design 
+
+When it comes to visually communicating your ideas, a clean, minimal and eye-catching design is a must. Whether you need a series of infographics, print collateral for a trade show, a poster that showcases an important project or an entirely new brand identity to attract the attention of your ideal customer, we can help.
 
 ### Process Automation 
 
@@ -31,10 +38,3 @@ Increase your team's efficiency, eliminate tedious tasks and market your product
 
 Discover new opportunities, build a solid foundation for growth and eliminate wasteful spending. We bring teams and technology together to help you plan for the future and resolve your most pressing technological challenges.
 
-
-
-## Testimonials
-
-
-
-## Clients We've Worked With
