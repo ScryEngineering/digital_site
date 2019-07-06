@@ -11,3 +11,4 @@ Your website represents your company, and first impressions mean everything when
 As search engines change their algorithms and new trends constantly appear on the scene, you need an experienced partner who can guide you through the process and build you a site you'll be proud to show off. 
 
 With years of experience in building high-quality sites using HTML, CSS and JavaScript, we're passionate about combining form and function to create beautifully custom-designed websites that set our clients apart.
+
