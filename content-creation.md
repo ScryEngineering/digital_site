@@ -1,6 +1,6 @@
 ---
 name: Content Creation and Web Development
-CallToActionText: "Let's plan your next project!"
+CallToActionText: "We create content that adds value and starts conversations. Let's plan your next project!"
 HideCallToAction: false
 ---
 
@@ -12,21 +12,15 @@ Content builds connection. Every word you publish on your website should connect
 
 Effective content is essential to any marketing strategy. It cements your authority, builds trust with your audience and expresses your unique voice. With years of expertise in crafting high-quality, dynamic content and a knack for helping tech-focused businesses tell their stories, we're well-positioned to help you break through the noise, reach your customer and get results. 
 
-Content Creation
-
 Copywriting 
 
 Email Marketing 
 
 Blogging 
 
-## Web Design and Development 
+Documentation
 
-Your website represents your company, and first impressions mean everything when you only have seconds to give your visitors a reason to stay. An accessible, secure, mobile-responsive and user-friendly site that's optimized to rank high in search engines is an essential part of doing business in today's competitive market. 
 
-As search engines change their algorithms and new trends constantly appear on the scene, you need an experienced partner who can guide you through the process and build you a site you'll be proud to show off. 
-
-With years of experience in building high-quality sites using HTML, CSS and JavaScript, we're passionate about combining form and function to create beautifully custom-designed websites that set our clients apart.
 
 
 
