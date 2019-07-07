@@ -1,5 +1,5 @@
 ---
-name: Content Creation and Web Development
+name: Content Creation
 CallToActionText: "We create content that adds value and starts conversations. Let's plan your next project!"
 HideCallToAction: false
 ---
