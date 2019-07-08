@@ -8,13 +8,7 @@
 <body>
     <header>
         <h1>Site name</h1>
-        <ul id="nav">
-            {% for page in pages %}
-            {% if not page.content_type %}
-            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-        </ul>
+        {% include "menu.html" pages=site.content['menu.yaml'].pages %}
     </header>
     <div id="container">
         {% block content %}{% endblock %}
