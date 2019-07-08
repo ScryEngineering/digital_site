@@ -4,9 +4,15 @@ CallToActionText:
 HideCallToAction: false
 ---
 
-## Who We Are
+## 
 
-We're a team of data-driven specialists, passionate creatives and talented technical minds. 
+We're a team of data-driven specialists, passionate creatives and talented technical minds. Our shared mission: to help high-performing companies build a solid foundation for growth and reach their ideal customers. 
 
-Our shared mission: to help high-performing 
+
+
+**Be transparent.**
+
+**Act as a partner.** 
+
+
 
