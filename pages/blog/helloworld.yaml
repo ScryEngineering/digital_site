@@ -1,0 +1,16 @@
+content_type: BlogPost
+title: My First Post!
+authors: 
+- Alysha
+- Janis
+posted: 2018-07-07T20:00:00
+modified: 2018-07-08T20:00:00
+category: software
+tags: 
+- Hello
+- world
+summary: A short desciption
+draft: false
+---
+
+Hello world this is the full post!
