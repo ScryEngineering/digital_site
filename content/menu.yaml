@@ -1,0 +1,6 @@
+content_type: Collection
+filter_by:
+  contains:
+    - attr: ['title']
+    - 'About'
+---
