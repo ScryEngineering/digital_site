@@ -13,7 +13,7 @@
         {% for authors in post.authors %}
         <a href="">{{ authors }}</a>
         {% endfor %}.
-        {% if page.modified %}
+        {% if post.modified %}
         <br />
         Modified on <time datetime="">{{ post.modified }}</time>.
         {% endif %}
