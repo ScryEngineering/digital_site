@@ -21,5 +21,5 @@ class TeamMember(Templated, Content):
     template: str="team/team_detail.html"
     summary: str
     img: str
-    personalURL: str
-    socialURL: dict
+    personalURL: typing.Union[None, str]
+    socialURL: typing.Union[None, dict]
