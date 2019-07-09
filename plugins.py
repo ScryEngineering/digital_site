@@ -13,3 +13,6 @@ class BlogPost(Templated, Content):
     template: str = "blog/post.html"
     summary: str
     draft: bool
+
+class Page(Templated, Content):
+    in_menu: bool = True
