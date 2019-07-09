@@ -20,7 +20,7 @@ When you work with us, we transform your design-related challenges and complex c
 
 From adding a pop of color to your images to choosing precisely the right font for your text, we nail the details. We're big on UX - after all, a perfect design is interactive, responsive and looks spectacular on every device! And of course, we ensure your newest masterpiece is consistent with the rest of your marketing materials.
 
-Whether you need a series of infographics to be published on the web, print collateral for a trade show, an educational poster that showcases an important project or a new brand identity to attract the attention of your ideal customer, we combine in-depth domain knowledge with fresh graphic design techniques and solid technical skills.
+Whether you need a series of infographics to be published on the web, print collateral for a trade show, a high-impact educational poster that showcases an important project or a new brand identity to attract the attention of your ideal customer, we combine in-depth domain knowledge with fresh graphic design techniques and solid technical skills.
 
 
 
