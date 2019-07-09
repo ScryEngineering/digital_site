@@ -21,3 +21,5 @@ class TeamMember(Templated, Content):
     template: str="team/team_detail.html"
     summary: str
     img: str
+    personalURL: str
+    socialURL: dict
