@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}{{ this.title }}{% endblock %}
+
+{% block content %}
+<h1>{{ this.name }}</h1>
+<p>{{ this.role }}, {{ this.location }}</p>
+<img href="static/images/{{ this.img }}" alt="picture of {{ this.name }}">
+<p>{{ this.content }}</p>
+<!-- TODO: include author/s card -->
+{% endblock %}
