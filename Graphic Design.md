@@ -1,3 +1,11 @@
+---
+name: "Graphic Design"
+CallToActionText: "We'd love to chat about how we can help make your next design project a success. Get in touch today."
+HideCallToAction: False
+---
+
+
+
 ## Graphic Design 
 
 Effective design is the bare minimum in an era that has us scrolling through thousands of images every day. Every time you hit publish, you've got a monumental task: grab your audience's attention with an impactful message that drives them to act - and sears your brand in their memories.
