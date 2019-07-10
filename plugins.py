@@ -16,3 +16,13 @@ class BlogPost(Templated, Content):
 
 class Page(Templated, Content):
     in_menu: bool = True
+
+class TeamMember(Templated, Content):
+    name: str
+    role: str
+    location: str
+    template: str="team/team_detail.html"
+    summary: str
+    img: str
+    personalURL: typing.Union[None, str]
+    socialURL: typing.Union[None, dict]
