@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}{{ this.title }}{% endblock %}
+
+{% block content %}
+{% for member in site.content["team.yaml"].pages %}
+<div id="post">
+    <h2>{{ member.name }}</h2>
+    <p>{{ member.role }}, {{ member.location }}</p>
+    <img href="static/images/{{ member.photo }}" alt="picture of {{ member.name }}">
+    <p>{{ member.summary }}</p>
+    <a href="{{ member.url }}">read more</a>
+</div>
+{% endfor %}
+{% endblock %}
