@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 
 {% block title %}{{ this.title }}{% endblock %}
+{% block css %}<link rel="stylesheet" type="text/css" href="/static/css/pages/_team.css">{% endblock %}
 
 {% block content %}
 {% for member in site.content["team.yaml"].pages %}
