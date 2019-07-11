@@ -4,23 +4,21 @@
 {% block css %}<link rel="stylesheet" type="text/css" href="/static/css/blog.css">{% endblock %}
 
 {% block content %}
-{% for page in pages %}
-{% if page.authors %}
+{% for post in site.content["blog.yaml"].pages %}
 <div id="post">
-    <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
-    <p>{{ page.summary }}</p>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p>{{ post.summary }}</p>
     <p>
-        Published on <time datetime="">{{ page.posted }}</time> by
-        {% for authors in page.authors %}
+        Published on <time datetime="">{{ post.posted }}</time> by
+        {% for authors in post.authors %}
         <a href="">{{ authors }}</a>
         {% endfor %}.
-        {% if page.modified %}
+        {% if post.modified %}
         <br />
-        Modified on <time datetime="">{{ page.modified }}</time>.
+        Modified on <time datetime="">{{ post.modified }}</time>.
         {% endif %}
     </p>
-    {% for tag in page.tags %}<a href="" class="tags">{{ tag }}</a>{% endfor %}
+    {% for tag in post.tags %}<a href="" class="tags">{{ tag }}</a>{% endfor %}
 </div>
-{% endif %}
 {% endfor %}
 {% endblock %}

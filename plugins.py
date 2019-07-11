@@ -14,6 +14,9 @@ class BlogPost(Templated, Content):
     summary: str
     draft: bool
 
+class Page(Templated, Content):
+    in_menu: bool = True
+
 class TeamMember(Templated, Content):
     name: str
     role: str
