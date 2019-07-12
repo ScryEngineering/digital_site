@@ -1,6 +1,9 @@
 import typing
 from datetime import datetime
 
+from stencil import SafeStr
+
+from gilbert import Site
 from gilbert.content import Templated, Content
 
 class BlogPost(Templated, Content):
@@ -26,3 +29,8 @@ class TeamMember(Templated, Content):
     img: str
     personalURL: typing.Union[None, str]
     socialURL: typing.Union[None, dict]
+
+@Site.register_context_provider
+def global_context(ctx):
+    ctx['safe'] = SafeStr
+    return ctx

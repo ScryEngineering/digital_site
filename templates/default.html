@@ -3,5 +3,5 @@
 {% block title %}{{ this.title }}{% endblock %}
 
 {% block content %}
-{{ this.content }}
+{{ safe(this.content) }}
 {% endblock %}
