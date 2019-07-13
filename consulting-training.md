@@ -66,6 +66,7 @@ Metacognitive skills (Planning, problem solving, goal-setting, etc.)
 
 - Scheduling and sequencing of learning
 - Domain specific learning topics
+- Knowledge transfer
 
 
 
