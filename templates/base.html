@@ -8,8 +8,8 @@
     {% block css %}{% endblock %}
 </head>
 <body>
-    <header>
-        <h1><a href="/index.html">Site name</a></h1>
+    <header id="nav">
+        <h1 id="site-logo"><a href="/index.html">Site name</a></h1>
         {% include "menu.html" pages=site.content['menu.yaml'].pages %}
     </header>
     <div id="container">
