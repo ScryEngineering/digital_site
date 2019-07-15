@@ -21,4 +21,8 @@
         text-decoration: none;
         padding: 1em;
     }
+
+    @include sm {
+        flex-direction: column;
+    }
 }
