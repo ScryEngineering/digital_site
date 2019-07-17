@@ -1,4 +1,5 @@
 #nav {
+    background-color: $primary-color;
     display: flex;
     align-items: center;
     height: 80px;
@@ -21,9 +22,9 @@
         text-decoration: none;
         padding: 1em;
     }
-    /*
+    
     @include sm {
-        flex-direction: column;
+        flex-direction: row;
     }
-    */
+    
 }
