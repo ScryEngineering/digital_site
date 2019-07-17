@@ -1,3 +1,28 @@
-.blog-container {
-    border-bottom: 1px solid grey;
+@import "base/fonts", "base/color";
+
+.post-container {
+    margin: 2em 0;
+    padding: 1em;
+    background-color: $post-bg;
+}
+
+.post-title{
+    margin: 0;
+
+    a {
+        text-decoration: none;    
+    }
+}
+
+.post-about {
+    font-size: $size-links;
+    padding: 1em 0;
+}
+
+.post-tag {
+    background-color: $tags;
+    text-decoration: none;
+    padding: .75em;
+    border-radius: 1.5em;
+    margin-right: .5em;
 }
