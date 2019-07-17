@@ -1,9 +1,9 @@
-@charset "UTF-8";
+@charset "utf-8";
 
-@import "abstracts/_mixins.css";
+@import "abstracts/mixins";
 
-@import "base/_reset.css";
+@import "base/color", "base/reset";
 
-@import "partials/_header.css";
+@import "partials/header";
 
-@import "components/_container.css";
+@import "components/container";
