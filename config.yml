@@ -1,4 +1,4 @@
 content_type:
   SCSS:
     include_paths:
-      - ./pages/static/css
+      - ./content/sass
