@@ -1,5 +1,14 @@
+@import "abstracts/mixins";
+
+
 .list-container {
-    margin: 2em 0;
+    width:90%;
+    margin: 2em auto;
     padding: 1em;
     background-color: $list-bg;
+    @include md {
+        display: flex;
+        flex-direction: column;
+        width:70%;
+    }
 }

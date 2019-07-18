@@ -1,3 +1,5 @@
+@import "abstracts/mixins";
+
 @import "base/color";
 
 @import "partials/list-container";
@@ -10,7 +12,29 @@
     font-style: italic;
 }
 
+.team-content{
+    @include md {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
 .team-img {
     background-color: $tags;
-    padding: 100px 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.team-summary {
+    margin: 1em 0;
+    width: 100%;
+    @include md {
+        margin: 0 2em;
+        width: 70%;  
+    }
+}
+
+.team-link {
+    text-align: right;
 }
