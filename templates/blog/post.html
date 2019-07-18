@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 
 {% block title %}{{ this.title }}{% endblock %}
+{% block css %}<link rel="stylesheet" type="text/css" href="/static/css/pages/blog.css">{% endblock %}
 
 {% block content %}
 <h1>{{ this.title }}</h1>
@@ -17,5 +18,5 @@
 <p>category: <a href="" class="tags">{{ this.category }}</a></p>
 <p>{{ this.content }}</p>
 <!-- TODO: include author/s card -->
-{% for tag in this.tags %}<a href="" class="tags">{{ tag }}</a>{% endfor %}
+{% for tag in this.tags %}<a class="post-tag" href="" class="tags">{{ tag }}</a>{% endfor %}
 {% endblock %}
