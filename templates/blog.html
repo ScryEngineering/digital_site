@@ -18,7 +18,9 @@
         Modified on <time datetime="">{{ post.modified }}</time>.
         {% endif %}
     </p>
-    {% for tag in post.tags %}<a class="post-tag" href="" class="tags">{{ tag }}</a>{% endfor %}
+    <div class="tags">
+        {% for tag in post.tags %}<a class="post-tag" href="" class="tags">{{ tag }}</a>{% endfor %}
+    </div>
 </div>
 {% endfor %}
 {% endblock %}
