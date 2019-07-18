@@ -5,7 +5,7 @@
 
 {% block content %}
 {% for post in site.content["blog.yaml"].pages %}
-<div class="post-container">
+<div class="list-container">
     <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
     <p>{{ post.summary }}</p>
     <p class="post-about">

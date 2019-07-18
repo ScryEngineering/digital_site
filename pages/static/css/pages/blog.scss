@@ -1,12 +1,8 @@
 @import "base/fonts", "base/color";
 
-@import "components/tags";
+@import "partials/list-container";
 
-.post-container {
-    margin: 2em 0;
-    padding: 1em;
-    background-color: $post-bg;
-}
+@import "components/tags";
 
 .post-title{
     margin: 0;

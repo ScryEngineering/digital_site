@@ -1,10 +1,6 @@
-@import "base/fonts", "base/color";
+@import "base/color";
 
-.team-container {
-    margin: 2em 0;
-    padding: 1em;
-    background-color: $post-bg;
-}
+@import "partials/list-container";
 
 .team-title{
     margin: 0;
