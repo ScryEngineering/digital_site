@@ -1,0 +1,18 @@
+@import "base/fonts", "base/color";
+
+@import "partials/list-container";
+
+@import "components/tags";
+
+.post-title{
+    margin: 0;
+
+    a {
+        text-decoration: none;    
+    }
+}
+
+.post-about {
+    font-size: $size-links;
+    padding: 1em 0;
+}
