@@ -1,0 +1,5 @@
+content_type: Collection
+filter_by:
+  eq:
+    - attr: ["content_type"]
+    - "Service"

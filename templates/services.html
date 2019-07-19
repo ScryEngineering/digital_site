@@ -5,7 +5,7 @@
 {% block content %}
 <ul>
 {% for service in site.content["service.yaml"].pages %}
-    <li class="team-title"><a href="{{ service.url }}">{{ service.name }}</a></li>
+    <li><a href="{{ service.url }}">{{ service.name }}</a></li>
 {% endfor %}
 </ul>
 {% endblock %}
