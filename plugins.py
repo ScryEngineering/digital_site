@@ -26,3 +26,8 @@ class TeamMember(Templated, Content):
     img: str
     personalURL: typing.Union[None, str]
     socialURL: typing.Union[None, dict]
+
+class Service(Templated, Content):
+    name: str
+    template: str="service/service_detail.html"
+    summary: str
