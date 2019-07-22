@@ -10,7 +10,7 @@ class BlogPost(Templated, Content):
     modified: typing.Union[None, datetime]
     category: str
     tags: list
-    template: str = "blog/post.html"
+    template: str = "blog/post_detail.html"
     summary: str
     draft: bool
 
