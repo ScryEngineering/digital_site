@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+    {% block css %}{% endblock %}
+</head>
+<body>
+    <header id="nav">
+        <h1 id="site-logo"><a href="/index.html">Site name</a></h1>
+        {% include "menu.html" pages=site.content['menu.yaml'].pages %}
+    </header>
+    <div id="container">
+        {% block content %}{% endblock %}
+    </div>
+    {% include "footer.html" %}
+    <script type="text/javascript" src="/static/js/navbar.js"></script>
+    {% block scripts %}{% endblock %}
+</body>
+</html>

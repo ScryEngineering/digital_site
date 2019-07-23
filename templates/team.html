@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}{{ this.title }}{% endblock %}
+{% block css %}<link rel="stylesheet" type="text/css" href="/static/css/pages/team.css">{% endblock %}
+
+{% block content %}
+{% for member in site.content["team.yaml"].pages %}
+<div class="list-container">
+    <h2 class="team-title">{{ member.name }}</h2>
+    <p class="team-role">{{ member.role }}, {{ member.location }}</p>
+    <div class="team-content">
+        <img class="team-img" href="static/images/{{ member.photo }}" alt="picture of {{ member.name }}">
+        <p class="team-summary">{{ member.summary }}</p>
+    </div>
+    <a class="team-link" href="{{ member.url }}">read more</a>
+</div>
+{% endfor %}
+{% endblock %}
