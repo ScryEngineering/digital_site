@@ -7,6 +7,7 @@
 <h1>{{ this.title }}</h1>
 <h4>
     Published on <time datetime="">{{ this.posted }}</time> by
+    <!-- TODO: link to team page, format authors -->
     {% for author in this.authors %}
     <a href="">{{ author }}</a>
     {% endfor %}.
@@ -18,7 +19,7 @@
 <p>category: <a href="" class="tags">{{ this.category }}</a></p>
 <p>{{ this.content }}</p>
 
-<!-- TODO: include author/s card -->
+<!-- TODO: filter author/s card -->
 {% for author in this.authors %}
 {% include "team/team_list.html" author=author, members=site.content["team.yaml"].pages %}
 {% endfor %}
