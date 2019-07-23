@@ -20,9 +20,8 @@
 
 <!-- TODO: include author/s card -->
 {% for author in this.authors %}
-{% include "team/team_list.html" members=site.content["team.yaml"].pages %}
-{% endfor %}.
-
+{% include "team/team_list.html" author=author, members=site.content["team.yaml"].pages %}
+{% endfor %}
 
 {% for tag in this.tags %}<a class="post-tag" href="" class="tags">{{ tag }}</a>{% endfor %}
 {% endblock %}
