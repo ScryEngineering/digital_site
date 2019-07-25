@@ -7,15 +7,15 @@
 <h1>{{ this.title }}</h1>
 <h4>
     Published on <time datetime="">{{ this.posted }}</time> by
-    {% for authors in this.authors %}
-    <a href="">{{ authors }}</a>
+    {% for author in this.authors %}
+    <a href="">{{ author }}</a>
     {% endfor %}.
 </h4>
 {% if page.modified %}
 <br />
 <h4>Modified on <time datetime="">{{ this.modified }}</time>.</h4>
 {% endif %}
-<p>category: <a href="" class="tags">{{ this.category }}</a></p>
+<p>category: <a href="">{{ this.category }}</a></p>
 <p>{{ this.content }}</p>
 <!-- TODO: include author/s card -->
 {% for tag in this.tags %}<a class="post-tag" href="" class="tags">{{ tag }}</a>{% endfor %}
