@@ -3,12 +3,12 @@
     <p>{{ post.summary }}</p>
     <p class="post-about">
         Published on <time datetime="">{{ post.posted }}</time> by
-        {% for authors in post.authors %}
-        <a href="">{{ authors }}</a>
+        {% for author in post.authors %}
+            {% include "blog/author_link.html" author=author, members=site.content["team.yaml"].pages %}
         {% endfor %}.
         {% if post.modified %}
-        <br />
-        Modified on <time datetime="">{{ post.modified }}</time>.
+            <br />
+            Modified on <time datetime="">{{ post.modified }}</time>.
         {% endif %}
     </p>
     <div class="tags">
