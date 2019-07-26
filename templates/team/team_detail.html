@@ -13,6 +13,10 @@
 {% for url in this.socialURL %}
 <a href="{{ this.socialURL[url] }}">{{ url }}</a>
 {% endfor %}
+
 <!-- TODO: include posts by this team member -->
+{% for post in site.content["blog.yaml"].pages %}
+	{% include "blog/post_list.html" member=this.name %}
+{% endfor %}
 
 {% endblock %}
