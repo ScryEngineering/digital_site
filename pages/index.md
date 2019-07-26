@@ -1,4 +1,5 @@
 title: Home
+in_menu: False
 ---
 
 We give high-performing companies the tools they need to compete in the digital age, from skills development and automation to communications and strategy expertise.
