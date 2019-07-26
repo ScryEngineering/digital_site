@@ -1,25 +1,9 @@
 {% for member in members %}
 {% if not author %}
-<div class="list-container">
-    <h2 class="team-title">{{ member.name }}</h2>
-    <p class="team-role">{{ member.role }}, {{ member.location }}</p>
-    <div class="team-content">
-        <img class="team-img" href="static/images/{{ member.photo }}" alt="picture of {{ member.name }}">
-        <p class="team-summary">{{ member.summary }}</p>
-    </div>
-    <a class="team-link" href="{{ member.url }}">read more</a>
-</div>
+    {% include "team/team_card.html" %}
 {% else %}
 {% if author.__contains__(member.name) %}
-<div class="list-container">
-    <h2 class="team-title">{{ member.name }}</h2>
-    <p class="team-role">{{ member.role }}, {{ member.location }}</p>
-    <div class="team-content">
-        <img class="team-img" href="static/images/{{ member.photo }}" alt="picture of {{ member.name }}">
-        <p class="team-summary">{{ member.summary }}</p>
-    </div>
-    <a class="team-link" href="{{ member.url }}">read more</a>
-</div>
+    {% include "team/team_card.html" %}
 {% endif %}
 
 {% endif %}
