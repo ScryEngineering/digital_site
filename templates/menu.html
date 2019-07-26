@@ -1,0 +1,10 @@
+<div class="nav-toggle" id="js-nav-toggle" onclick="animateBar(this)">
+    <span class="bar-top"></span>
+    <span class="bar-mid"></span>
+    <span class="bar-bot"></span>
+</div>
+<ul class="menu" id="js-menu">
+    {% for page in pages %}
+    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+    {% endfor %}
+</ul>
