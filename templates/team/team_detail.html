@@ -15,6 +15,7 @@
     <a href="{{ this.socialURL[url] }}">{{ url }}</a>
 {% endfor %}
 
+<h4>Posts by {{ this.name }}</h4>
 {% for post in site.content["blog.yaml"].pages %}
 	{% include "blog/post_list.html" member=this.name %}
 {% endfor %}
