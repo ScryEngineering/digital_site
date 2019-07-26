@@ -1,7 +1,7 @@
 {% for member in members %}
+
 {% if author.__contains__(member.name) %}
     <a href="{{ member.url }}">{{ member.name }}</a>
 {% endif %}
 
-{% endif %}
 {% endfor %}
