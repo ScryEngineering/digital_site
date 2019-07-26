@@ -8,13 +8,12 @@
 <img href="static/images/{{ this.img }}" alt="picture of {{ this.name }}">
 <p>{{ this.content }}</p>
 {% if this.personalURL %}
-<p>{{ this.name }} has a personal website here: <a href="{{ this.personalURL }}">{{ this.personalURL }}</a></p>
+    <p>{{ this.name }} has a personal website here: <a href="{{ this.personalURL }}">{{ this.personalURL }}</a></p>
 {% endif %}
 {% for url in this.socialURL %}
-<a href="{{ this.socialURL[url] }}">{{ url }}</a>
+    <a href="{{ this.socialURL[url] }}">{{ url }}</a>
 {% endfor %}
 
-<!-- TODO: include posts by this team member -->
 {% for post in site.content["blog.yaml"].pages %}
 	{% include "blog/post_list.html" member=this.name %}
 {% endfor %}
