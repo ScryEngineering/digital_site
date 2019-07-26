@@ -9,12 +9,12 @@
     Published on <time datetime="">{{ this.posted }}</time> by
     <!-- TODO: link to team page, format authors -->
     {% for author in this.authors %}
-    <a href="">{{ author }}</a>
+        {% include "blog/author_link.html" author=author, members=site.content["team.yaml"].pages %}
     {% endfor %}.
 </h4>
 {% if page.modified %}
-<br />
-<h4>Modified on <time datetime="">{{ this.modified }}</time>.</h4>
+    <br />
+    <h4>Modified on <time datetime="">{{ this.modified }}</time>.</h4>
 {% endif %}
 <p>category: <a href="" class="tags">{{ this.category }}</a></p>
 <p>{{ this.content }}</p>
