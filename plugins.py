@@ -13,7 +13,7 @@ class BlogPost(Templated, Content):
     modified: typing.Union[None, datetime]
     category: str
     tags: list
-    template: str = "blog/post.html"
+    template: str = "blog/post_detail.html"
     summary: str
     draft: bool
 
@@ -29,6 +29,11 @@ class TeamMember(Templated, Content):
     img: str
     personalURL: typing.Union[None, str]
     socialURL: typing.Union[None, dict]
+
+class Service(Templated, Content):
+    name: str
+    template: str="service/service_detail.html"
+    summary: str
 
 @Site.register_context_provider
 def global_context(ctx):
