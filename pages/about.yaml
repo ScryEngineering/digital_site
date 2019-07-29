@@ -1,5 +1,5 @@
 title: About
-template: contact.html
+template: call_to_action.html
 name: Who We Are
 call_to_action_text: We'd love to learn more about your next big project. Get in touch, and let's get started!
 HideCallToAction: false
