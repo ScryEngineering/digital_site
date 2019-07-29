@@ -1,6 +1,7 @@
 title: About
+template: contact.html
 name: Who We Are
-CallToActionText: "We'd love to learn more about your next big project. Get in touch, and let's get started!"
+call_to_action_text: We'd love to learn more about your next big project. Get in touch, and let's get started!
 HideCallToAction: false
 ---
 
