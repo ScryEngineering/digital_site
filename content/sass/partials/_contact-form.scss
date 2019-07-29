@@ -3,12 +3,16 @@
 @import "components/form-button";
 
 #contact-form {
-    width: 50%;
+    width:90%;
     margin: 0 auto;
     padding: .5em;
     text-align: center;
     background-color: $list-bg;
-}
+
+    @include md {
+        width: 50%;
+    }
+}      
 
 #call-to-action {
     width: 95%;
