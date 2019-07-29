@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block title %}{{ this.title }}{% endblock %}
+
+{% block content %}
+{{ this.content }}
+{% include "contact/contact_form.html" %}
+{% endblock %}
