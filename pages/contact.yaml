@@ -1,4 +1,5 @@
 title: Contact
+template: call_to_action.html
+call_to_action_text: call to action text
 ---
 
-contact
