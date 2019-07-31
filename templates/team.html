@@ -4,7 +4,5 @@
 {% block css %}<link rel="stylesheet" type="text/css" href="/static/css/pages/team.css">{% endblock %}
 
 {% block content %}
-{% for member in site.content["team.yaml"].pages %}
-{% include "team/team_list.html" %}
-{% endfor %}
+{% include "team/team_list.html" members=site.content["team.yaml"].pages %}
 {% endblock %}

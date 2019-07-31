@@ -8,15 +8,19 @@
 <h4>
     Published on <time datetime="">{{ this.posted }}</time> by
     {% for author in this.authors %}
-    <a href="">{{ author }}</a>
+        {% include "blog/author_link.html" author=author, members=site.content["team.yaml"].pages %}
     {% endfor %}.
 </h4>
 {% if page.modified %}
-<br />
-<h4>Modified on <time datetime="">{{ this.modified }}</time>.</h4>
+    <br />
+    <h4>Modified on <time datetime="">{{ this.modified }}</time>.</h4>
 {% endif %}
-<p>category: <a href="">{{ this.category }}</a></p>
+<p>category: <a href="" class="tags">{{ this.category }}</a></p>
 <p>{{ this.content }}</p>
-<!-- TODO: include author/s card -->
+
+{% for author in this.authors %}
+{% include "team/team_list.html" author=author, members=site.content["team.yaml"].pages %}
+{% endfor %}
+
 {% for tag in this.tags %}<a class="post-tag" href="" class="tags">{{ tag }}</a>{% endfor %}
 {% endblock %}
