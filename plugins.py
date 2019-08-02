@@ -19,6 +19,7 @@ class BlogPost(Templated, Content):
 
 class Page(Templated, Content):
     in_menu: bool = True
+    call_to_action_text: str
 
 class TeamMember(Templated, Content):
     name: str
