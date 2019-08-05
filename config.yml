@@ -1,3 +1,11 @@
+global: {}
+
+plugins:
+  - gilbert.plugins.yaml
+  - gilbert.plugins.frontmatter_markdown
+  - gilbert.plugins.scss
+  - gilbert.plugins.collection
+  
 content_type:
   SCSS:
     include_paths:
