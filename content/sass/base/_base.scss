@@ -7,10 +7,15 @@ body {
     font-weight: normal;
     font-size: $size-body;
     line-height: 1.4;
-    color: $font-body;
+    color: $color-body;
     background: $body-bg;
 }
 
 h2 {
 	font-size: $size-subheading;
+	color: $color-heading;
+}
+
+a {
+	color: $color-a;
 }
