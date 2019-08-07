@@ -1,5 +1,5 @@
 #nav {
-    background-color: $primary-color;
+    background-color: $body-bg;
     display: block;
     padding: 1em 0;
     @include md {
@@ -13,8 +13,8 @@
     text-align: center;
     @include md {
         padding: 0;
-        width:25%;
-        margin: 0 0 0 5%;
+        width: 20%;
+        margin-left: 10%;
         text-align: left;
     }
 }
@@ -62,12 +62,16 @@
     a {
         font-size: $size-nav;
         text-decoration: none;
+        padding-left: 0;
+
+        @include md {
+            padding-left: 2.8em;
+        }
     }
 }
 
 .active {
     display: block;
-
 }
 
 .menu {
@@ -76,8 +80,9 @@
         padding-top: 0;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        margin-right: 5%;
-        width: 65%;
+        justify-content: flex-end;
+        margin-right: 10%;
+        width: 60%;
     }
 }
+
