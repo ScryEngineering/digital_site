@@ -11,11 +11,18 @@ body {
     background: $body-bg;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: $color-heading;
+}
+
+h1 {
+    font-size: $size-heading;
+}
+
 h2 {
-	font-size: $size-subheading;
-	color: $color-heading;
+    font-size: $size-subheading;
 }
 
 a {
-	color: $color-a;
+    color: $color-a;
 }

@@ -12,7 +12,7 @@
         <h1 id="site-logo"><a href="/index.html">Site name</a></h1>
         {% include "menu.html" pages=site.content['menu.yaml'].pages %}
     </header>
-    <h2 id="page-title">{{ this.title }}</h2>
+    <h1 id="page-title">{{ this.title }}</h1>
     {% block content %}{% endblock %}
     {% include "footer.html" %}
     <script type="text/javascript" src="/static/js/navbar.js"></script>
