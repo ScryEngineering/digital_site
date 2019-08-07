@@ -1,10 +1,9 @@
 {% extends "base.html" %}
 
-{% block title %}{{ this.title }}{% endblock %}
 {% block css %}<link rel="stylesheet" type="text/css" href="/static/css/pages/blog.css">{% endblock %}
 
 {% block content %}
-<h1>{{ this.title }}</h1>
+<h1 id="page-title">{{ this.title }}</h1>
 <h4>
     Published on <time datetime="">{{ this.posted }}</time> by
     {% for author in this.authors %}
@@ -16,7 +15,9 @@
     <h4>Modified on <time datetime="">{{ this.modified }}</time>.</h4>
 {% endif %}
 <p>category: <a href="" class="tags">{{ this.category }}</a></p>
-<p>{{ this.content }}</p>
+<div id="container">
+    {{ this.content }}
+</div>
 
 {% for author in this.authors %}
 {% include "team/team_list.html" author=author, members=site.content["team.yaml"].pages %}
