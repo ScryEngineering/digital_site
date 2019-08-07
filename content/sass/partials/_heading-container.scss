@@ -1,7 +1,7 @@
 #page-title {
-	background-color: cadetblue;
+	background-color: $primary-color;
     text-align: center;
     margin: 0 auto;
-    box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+    box-shadow: inset 0 20px 20px -20px $color-heading, inset 0 -20px 20px -20px $color-heading;
     padding: 2em;
 }
