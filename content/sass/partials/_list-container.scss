@@ -1,5 +1,6 @@
 @import "abstracts/mixins";
-@import "base/color";
+@import "base/fonts", "base/color";
+@import "partials/list-content";
 
 .list-container {
     width:90%;
