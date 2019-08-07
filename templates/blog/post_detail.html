@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 
-{% block css %}<link rel="stylesheet" type="text/css" href="/static/css/pages/blog.css">{% endblock %}
+{% block css %}<link rel="stylesheet" type="text/css" href="/static/css/pages/blog.css">
+<link rel="stylesheet" type="text/css" href="/static/css/pages/team.css">
+{% endblock %}
 
 {% block title %}
 <h1>{{ this.title }}</h1>
@@ -20,11 +22,13 @@
 <div id="container">
 	<p>category: <a href="" class="tags">{{ this.category }}</a></p>
     {{ this.content }}
+    <div id="post-tags">
+        {% for tag in this.tags %}<a class="tag" href="">{{ tag }}</a>{% endfor %}
+    </div>
 </div>
 
 {% for author in this.authors %}
 {% include "team/team_list.html" author=author, members=site.content["team.yaml"].pages %}
 {% endfor %}
 
-{% for tag in this.tags %}<a class="post-tag" href="" class="tags">{{ tag }}</a>{% endfor %}
 {% endblock %}
