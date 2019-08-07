@@ -2,6 +2,7 @@
 
 {% block css %}<link rel="stylesheet" type="text/css" href="/static/css/pages/blog.css">{% endblock %}
 
+{% block title %}<h1>{{ this.title }}</h1>{% endblock %}
 {% block content %}
 {% for post in site.content["blog.yaml"].pages %}
 {% include "blog/post_list.html" %}

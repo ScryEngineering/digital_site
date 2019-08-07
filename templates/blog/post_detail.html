@@ -2,8 +2,8 @@
 
 {% block css %}<link rel="stylesheet" type="text/css" href="/static/css/pages/blog.css">{% endblock %}
 
-{% block content %}
-<h1 id="page-title">{{ this.title }}</h1>
+{% block title %}
+<h1>{{ this.title }}</h1>
 <h4>
     Published on <time datetime="">{{ this.posted }}</time> by
     {% for author in this.authors %}
@@ -14,8 +14,11 @@
     <br />
     <h4>Modified on <time datetime="">{{ this.modified }}</time>.</h4>
 {% endif %}
-<p>category: <a href="" class="tags">{{ this.category }}</a></p>
+{% endblock %}
+
+{% block content %}
 <div id="container">
+	<p>category: <a href="" class="tags">{{ this.category }}</a></p>
     {{ this.content }}
 </div>
 

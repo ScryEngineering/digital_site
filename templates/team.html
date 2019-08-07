@@ -2,6 +2,10 @@
 
 {% block css %}<link rel="stylesheet" type="text/css" href="/static/css/pages/team.css">{% endblock %}
 
+{% block title %}
+    <h1>{{ this.title }}</h1>
+{% endblock %}
+
 {% block content %}
 {% include "team/team_list.html" members=site.content["team.yaml"].pages %}
 {% endblock %}
