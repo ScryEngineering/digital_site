@@ -1,4 +1,5 @@
 ---
+content_type: Service
 name: "Graphic Design"
 CallToActionText: "We'd love to chat about how we can help make your next design project a success. Get in touch today."
 HideCallToAction: False

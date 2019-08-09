@@ -1,4 +1,5 @@
 ---
+content_type: Service
 name: "Consulting and Training"
 callToActionText: "We'd love to discuss how a mix of consulting and dedicated training can deliver better value for your organization. Contact us today."
 hideCallToAction: false
