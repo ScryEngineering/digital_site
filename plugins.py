@@ -1,6 +1,9 @@
 import typing
 from datetime import datetime
 
+from stencil import SafeStr
+
+from gilbert import Site
 from gilbert.content import Templated, Content
 
 class BlogPost(Templated, Content):
@@ -32,3 +35,8 @@ class Service(Templated, Content):
     name: str
     template: str="service/service_detail.html"
     summary: str
+
+@Site.register_context_provider
+def global_context(ctx):
+    ctx['safe'] = SafeStr
+    return ctx

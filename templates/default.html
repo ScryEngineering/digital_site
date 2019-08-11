@@ -6,6 +6,6 @@
 
 {% block content %}
 <div id="container">
-    {{ this.content }}
-</div>
+    {{ safe(this.content) }}
+</div>{
 {% endblock %}
