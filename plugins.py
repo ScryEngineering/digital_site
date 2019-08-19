@@ -46,3 +46,12 @@ class TagSummary(Templated, Content):
 def global_context(ctx):
     ctx['safe'] = SafeStr
     return ctx
+
+def get_tag_url(tag: str):
+    """Get the URL for `tag` if it exists"""
+    return ""
+
+@Site.register_context_provider
+def global_context(ctx):
+    ctx['get_tag_url'] = get_tag_url
+    return ctx
