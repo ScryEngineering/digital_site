@@ -22,5 +22,5 @@
 {% include "team/team_list.html" author=author, members=site.content["team.yaml"].pages %}
 {% endfor %}
 
-{% for tag in this.tags %}<a class="post-tag" href="" class="tags">{{ tag }}</a>{% endfor %}
+{% for tag in this.tags %}<a class="post-tag" href="{{get_tag_url(tag)}}" class="tags">{{ tag }}</a>{% endfor %}
 {% endblock %}
