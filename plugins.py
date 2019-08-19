@@ -36,11 +36,11 @@ class Service(Templated, Content):
     template: str="service/service_detail.html"
     summary: str
 
-class TagSumamry(Templated, Content):
+class TagSummary(Templated, Content):
     """This is a summary for a tag"""
     name: str
     template: str="tag_summary.html"
-
+    short_summary: str
 
 @Site.register_context_provider
 def global_context(ctx):
