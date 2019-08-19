@@ -36,6 +36,12 @@ class Service(Templated, Content):
     template: str="service/service_detail.html"
     summary: str
 
+class TagSumamry(Templated, Content):
+    """This is a summary for a tag"""
+    name: str
+    template: str="tag_summary.html"
+
+
 @Site.register_context_provider
 def global_context(ctx):
     ctx['safe'] = SafeStr
