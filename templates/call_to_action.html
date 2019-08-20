@@ -1,9 +1,13 @@
 {% extends "base.html" %}
 
-{% block title %}{{ this.title }}{% endblock %}
+{% block title %}
+    <h1>{{ this.title }}</h1>
+{% endblock %}
 
 {% block content %}
-<h2>{{ this.title }}</h2>
-<p>{{ safe(this.content) }}</p>
+<div id="container">
+    {{ safe(this.content) }}
+</div>
+
 {% include "contact/contact_form.html" %}
 {% endblock %}

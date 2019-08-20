@@ -1,13 +1,18 @@
 {% extends "base.html" %}
 
-{% block title %}{{ this.title }}{% endblock %}
 {% block css %}<link rel="stylesheet" type="text/css" href="/static/css/pages/team.css">{% endblock %}
 
-{% block content %}
+{% block title %}
 <h1>{{ this.name }}</h1>
 <p>{{ this.role }}, {{ this.location }}</p>
+{% endblock %}
+
+{% block content %}
+
 <img href="static/images/{{ this.img }}" alt="picture of {{ this.name }}">
-<p>{{ this.content }}</p>
+<div id="container">
+    {{ this.content }}
+</div>
 {% if this.personalURL %}
     <p>{{ this.name }} has a personal website here: <a href="{{ this.personalURL }}">{{ this.personalURL }}</a></p>
 {% endif %}

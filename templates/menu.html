@@ -5,6 +5,8 @@
 </div>
 <ul class="menu" id="js-menu">
     {% for page in pages %}
-    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+    <li><a href="{{ page.url }}" {% if this.url.__contains__(page.url) %}id="current"{% endif %}>
+        {{ page.title }}</a>
+    </li>
     {% endfor %}
 </ul>

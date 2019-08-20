@@ -1,8 +1,11 @@
 {% extends "base.html" %}
 
-{% block title %}{{ this.title }}{% endblock %}
+{% block title %}
+<h1>{{ this.name }}</h1>
+{% endblock %}
 
 {% block content %}
-<h1>{{ this.name }}</h1>
-<p>{{ safe(this.content) }}</p>
+<div id="container">
+    {{ safe(this.content) }}
+</div>
 {% endblock %}

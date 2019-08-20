@@ -1,12 +1,4 @@
-@import "abstracts/mixins";
-
-@import "base/color";
-
 @import "partials/list-container";
-
-.team-title{
-    margin: 0;
-}
 
 .team-role {
     font-style: italic;
@@ -33,8 +25,4 @@
         margin: 0 2em;
         width: 70%;  
     }
-}
-
-.team-link {
-    text-align: right;
 }
