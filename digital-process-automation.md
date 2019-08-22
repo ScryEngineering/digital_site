@@ -30,7 +30,7 @@ Digital process automation helps you streamline customer service, reduce staff w
 
 To effectively automate a process, you first have to understand how to engineer it for maximum efficiency. We guide you through every step, helping you to define which aspects of your customer experience and service will benefit most from automation. We create a precisely planned approach and work with you to implement a solution customized to your needs. 
 
-Leveraging years of experience in process automation and data science, we find efficiencies in critical areas such as internal communication, customer interaction, data collection, reporting, and others. 
+Leveraging years of experience in process automation and data science, we create easy-to-use automation solutions that even your non-technical staff can use in their workflows to complete their tasks more efficiently. Roadblocks caused by outdated programs and complicated workarounds in internal communication, customer interaction, data collection, reporting and more - gone. 
 
 We can help you:
 
