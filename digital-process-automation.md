@@ -8,7 +8,7 @@ draft: true
 
 # What is digital process automation?
 
-Digital process automation allows us to use digital technology to execute a process or series of processes to carry out a task or workflow. Information transfer is automated so everyone on your team can access anything they might need to complete their work.
+Digital process automation allows us to use digital technology to execute a process or series of processes to carry out a task or workflow. Information transfer can be automated so everyone on your team can access anything they might need to complete their work.
 
 Think of the things you do every day that keep your business running - you manage your inventory, supply chain and IT, make sales, check in on marketing, complete administrative tasks, and more. Communication often becomes a problem during the completion of these tasks - people don't have access to the information or files they need, emails and questions go unanswered, and your competition capitalizes on opportunities you miss due to inefficient processes and outdated systems. By automating your processes, you can stop wondering if you've sent that email, responded to your customer's question or onboarded your newest client - it's all done for you.
 
@@ -39,5 +39,5 @@ We can help you:
 - Update or revamp outdated in-house applications that have become difficult or impossible to use 
 - Move Excel or other similar applications into web applications that are easy to deploy and use
 
-Related skills: [Data science](data-science.md) is greatly enabled by better process automation. 
+Related skills: Data science is greatly enabled by better process automation. 
 
