@@ -28,7 +28,9 @@ Digital process automation helps you streamline customer service, reduce staff w
 
 ## Why work with us?
 
-To effectively automate a process, you first have to understand how to engineer it for maximum efficiency. We guide you through every step, helping you to define which aspects of your customer experience and service will benefit most from automation. We create a precisely planned approach and work with you to implement a user-friendly solution customized to your needs. 
+People are at the center of every process in your business. The more deeply you understand their needs, the more effectively you can automate your processes.
+
+We guide you through every step, from helping you define what "user-friendly" means to your staff and customers to discovering which aspects of your customer experience will benefit most from automation. 
 
 Leveraging years of experience in process automation and data science, we create easy-to-use automation solutions that even your non-technical staff can use in their workflows to complete their tasks more efficiently. Roadblocks caused by outdated programs and complicated workarounds in internal communication, customer interaction, data collection, reporting and more - gone. 
 
