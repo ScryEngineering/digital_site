@@ -1,26 +1,11 @@
 {% extends "base.html" %}
 
-{% block title %}{{ this.title }}{% endblock %}
-{% block css %}<link rel="stylesheet" type="text/css" href="/static/css/blog.css">{% endblock %}
+{% block css %}<link rel="stylesheet" type="text/css" href="/static/css/pages/blog.css">{% endblock %}
 
+{% block title %}<h1>{{ this.title }}</h1>{% endblock %}
 {% block content %}
-{% for page in pages %}
-{% if page.authors %}
-<div id="post">
-    <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
-    <p>{{ page.summary }}</p>
-    <p>
-        Published on <time datetime="">{{ page.posted }}</time> by
-        {% for authors in page.authors %}
-        <a href="">{{ authors }}</a>
-        {% endfor %}.
-        {% if page.modified %}
-        <br />
-        Modified on <time datetime="">{{ page.modified }}</time>.
-        {% endif %}
-    </p>
-    {% for tag in page.tags %}<a href="" class="tags">{{ tag }}</a>{% endfor %}
-</div>
-{% endif %}
+{% for post in site.content["blog.yaml"].pages %}
+{% include "blog/post_list.html" %}
 {% endfor %}
+{% include "contact/contact_form.html" %}
 {% endblock %}

@@ -1,0 +1,10 @@
+{% for member in members %}
+{% if not author %}
+    {% include "team/team_card.html" %}
+{% else %}
+{% if author.__contains__(member.name) %}
+    {% include "team/team_card.html" %}
+{% endif %}
+
+{% endif %}
+{% endfor %}

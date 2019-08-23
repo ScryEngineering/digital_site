@@ -1,0 +1,42 @@
+@import "base/color";
+
+@import "components/form-button";
+
+#contact-form {
+    width:90%;
+    margin: 0 auto;
+    padding: .5em;
+    text-align: center;
+    border-top: 1px solid $list-border;
+    border-bottom: 1px solid $list-border;
+
+    @include md {
+        width: 50%;
+    }
+}      
+
+#call-to-action {
+    width: 95%;
+    display: block;
+    margin: 1em auto;
+}
+
+form label {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#name-input, #email-input, #message-input {
+    width: 90%;
+    display: block;
+    margin: 0 auto 1em auto;
+    padding: .2em 0;
+    font-family: sans-serif;
+    font-size: 1.6rem;
+}
+
+#message-input {
+    resize: vertical;
+}

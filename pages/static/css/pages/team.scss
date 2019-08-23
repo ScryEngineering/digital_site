@@ -1,0 +1,28 @@
+@import "partials/list-container";
+
+.team-role {
+    font-style: italic;
+}
+
+.team-content{
+    @include md {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.team-img {
+    background-color: $tags;
+    width: 200px;
+    height: 200px;
+}
+
+.team-summary {
+    margin: 1em 0;
+    width: 100%;
+    @include md {
+        margin: 0 2em;
+        width: 70%;  
+    }
+}

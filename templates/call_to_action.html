@@ -7,5 +7,7 @@
 {% block content %}
 <div id="container">
     {{ safe(this.content) }}
-</div>{
+</div>
+
+{% include "contact/contact_form.html" %}
 {% endblock %}
