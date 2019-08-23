@@ -10,7 +10,7 @@ draft: true
 
 Digital process automation allows us to use digital technology to execute a process or series of processes to carry out a task or workflow. Information transfer can be automated so everyone on your team can access anything they might need to complete their work.
 
-Think of the things you do every day that keep your business running - you manage your inventory, supply chain and IT, make sales, check in on marketing, complete administrative tasks, and more. Communication often becomes a problem during the completion of these tasks - people don't have access to the information or files they need, emails and questions go unanswered, and your competition capitalizes on opportunities you miss due to inefficient processes and outdated systems. By automating your processes, you can stop wondering if you've sent that email, responded to your customer's question or onboarded your newest client - it's all done for you.
+Think of the things you do every day that keep your business running - you manage your inventory, supply chain and IT, make sales, check in on marketing, complete administrative tasks, and more. Communication often becomes a problem during the completion of these tasks - non-technical people are often confused by poorly designed user interfaces, while others don't have access to the information or files they need. Emails and questions go unanswered, and your competition capitalizes on opportunities you miss due to inefficient processes and outdated systems. By automating your processes, you can stop wondering if you've sent that email, responded to your customer's question or onboarded your newest client - it's all done for you.
 
 ## What digital process automation can do for you
 
@@ -28,7 +28,7 @@ Digital process automation helps you streamline customer service, reduce staff w
 
 ## Why work with us?
 
-To effectively automate a process, you first have to understand how to engineer it for maximum efficiency. We guide you through every step, helping you to define which aspects of your customer experience and service will benefit most from automation. We create a precisely planned approach and work with you to implement a solution customized to your needs. 
+To effectively automate a process, you first have to understand how to engineer it for maximum efficiency. We guide you through every step, helping you to define which aspects of your customer experience and service will benefit most from automation. We create a precisely planned approach and work with you to implement a user-friendly solution customized to your needs. 
 
 Leveraging years of experience in process automation and data science, we create easy-to-use automation solutions that even your non-technical staff can use in their workflows to complete their tasks more efficiently. Roadblocks caused by outdated programs and complicated workarounds in internal communication, customer interaction, data collection, reporting and more - gone. 
 
