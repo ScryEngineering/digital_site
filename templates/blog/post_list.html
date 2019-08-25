@@ -1,0 +1,9 @@
+{% if this.url.__contains__('/blog.html')  %}
+    {% include "blog/post_card.html" %}
+{% else %}
+{% for author in post.authors %}
+    {% if member.__contains__(author) %}
+        {% include "blog/post_card.html" %}
+    {% endif }
+{% endif %}
+{% endfor %}

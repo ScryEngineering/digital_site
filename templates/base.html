@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html lan="en">
+<html lang="en">
 <head>
-    <title>{% block title %}{% endblock %}</title>
-    <link rel="stylesheet" type="text/css" href="/static/css/base.scss">
+    <title>{{ this.title }}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+    {% block css %}{% endblock %}
 </head>
 <body>
-    <header>
-        <h1>Site name</h1>
-        <ul>
-            {% for page in pages %}
-            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-            {% endfor %}
-        </ul>
+    <header id="nav">
+        <h1 id="site-logo"><a href="/index.html">Site name</a></h1>
+        {% include "menu.html" pages=site.content['menu.yaml'].pages %}
     </header>
-    <div>
-        {% block content %}{% endblock %}
-    </div>
-    <footer></footer>
+    <div id="page-title">{% block title %}{% endblock %}</div>
+    {% block content %}{% endblock %}
+    {% include "footer.html" %}
+    <script type="text/javascript" src="/static/js/navbar.js"></script>
+    {% block scripts %}{% endblock %}
 </body>
 </html>

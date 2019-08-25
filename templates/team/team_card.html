@@ -1,0 +1,9 @@
+<div class="list-container">
+    <h2 class="list-title"><a href="{{ member.url }}">{{ member.name }}</a></h2>
+    <p class="team-role">{{ member.role }}, {{ member.location }}</p>
+    <div class="team-content">
+        <img class="team-img" href="static/images/{{ member.photo }}" alt="picture of {{ member.name }}">
+        <p class="team-summary">{{ member.summary }}</p>
+    </div>
+    <a class="list-link" href="{{ member.url }}">read more</a>
+</div>
