@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}
+    <h1>{{ this.title }}</h1>
+{% endblock %}
+
+{% block content %}
+<div id="container">
+    <ul>
+        {% for service in site.content["service.yaml"].pages %}
+            <li><a href="{{ service.url }}">{{ service.name }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}
