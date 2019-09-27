@@ -10,7 +10,7 @@ phases:
   build:
     commands:
       - gilbert --root . render
-artifacts:
-  files:
-    - '**/*'
-  base-directory: 'docs'
+  post_build:
+    commands:
+      - aws s3 sync docs/ "s3://${BUCKET_NAME}" --acl=public-read --delete
+      - aws cloudfront create-invalidation --distribution-id "${DISTRIBUTION_ID}" --paths *
