@@ -12,5 +12,5 @@ phases:
       - gilbert --root . render
 artifacts:
   files:
-    - **/*
-  base-directory: docs
+    - '**/*'
+  base-directory: 'docs'
