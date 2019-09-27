@@ -6,16 +6,10 @@ phases:
       python: 3.7
   pre_build:
     commands:
-      - echo pip install -r requirements.txt
       - pip install -r requirements.txt
   build:
     commands:
-      - echo Build started on `date`
-      - echo gilbert --root . render
       - gilbert --root . render
-  post_build:
-    commands:
-      - echo Build completed on `date`
 artifacts:
   files:
     - docs/*
